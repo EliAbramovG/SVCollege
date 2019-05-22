@@ -22,7 +22,6 @@ public class HWLogin {
 	public static WebDriver driver;
 	Actions builder = new Actions(driver);
 
-	WebElement fName = driver.findElement(By.id("FNTB"));
 	WebElement lName = driver.findElement(By.id("LNTB"));
 	WebElement email = driver.findElement(By.cssSelector("input[id='EmailTB']"));
 	WebElement pass = driver.findElement(By.id("PassTB"));
